@@ -103,7 +103,7 @@
         <div class="card">
             <h2>Materiais de Divulgação</h2>
             <p>Baixe cartazes, vídeos e artes oficiais da campanha para compartilhar e ajudar a salvar vidas!</p>
-            <a href="https://www.onsv.org.br/maio-amarelo" target="_blank">Acesse os materiais oficiais</a>
+            <a href="https://www.onsv.org.br" target="_blank">Acesse os materiais oficiais</a>
         </div>
     </section>
 </main>
