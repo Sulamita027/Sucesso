@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maio Amarelo - No Trânsito, Escolha a Vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://www.linkdaimagem.com/imagem.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background-color: rgba(255, 212, 0, 0.9);
+      text-align: center;
+      padding: 30px 20px;
+      animation: fadeInDown 1s ease-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+    nav a {
+      color: #ffd400;
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: bold;
+      position: relative;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    main {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+    }
+    section {
+      margin-bottom: 50px;
+      animation: fadeInUp 1s ease-out;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    footer {
+      background-color: rgba(255, 212, 0, 0.9);
+      color: #333;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 30px;
+    }
+    /* Botão de Voltar ao Topo */
+    #btnTopo {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      background: #ffd400;
+      color: #333;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      font-size: 16px;
+      display: none;
+      z-index: 1000;
+      transition: background 0.3s;
+    }
+    #btnTopo:hover {
+      background: #ffcc00;
+    }
+    /* Animações */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* Lista com Ícones */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding-left: 25px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+    ul li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #ffd400;
+      font-weight: bold;
+    }
+    /* Estilo do vídeo */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .video-container iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Maio Amarelo</h1>
+  <p>No Trânsito, Escolha a Vida</p>
+</header>
+
+<nav>
+  <a href="#sobre"><i data-feather="info"></i> Sobre</a>
+  <a href="#dicas"><i data-feather="shield"></i> Dicas</a>
+  <a href="#materiais"><i data-feather="download"></i> Materiais</a>
+  <a href="#video"><i data-feather="play-circle"></i> Vídeo</a>
+</nav>
+
+<main>
+
+  <section id="sobre">
+    <div class="card">
+      <h2><i data-feather="alert-circle"></i> O que é o Maio Amarelo?</h2>
+      <p>O Maio Amarelo é um movimento internacional de conscientização para a redução de acidentes de trânsito. A campanha busca alertar motoristas, ciclistas e pedestres para o valor da vida e a importância de atitudes responsáveis no trânsito.</p>
+    </div>
+  </section>
+
+  <section id="dicas">
+    <div class="card">
+      <h2><i data-feather="check-circle"></i> Dicas de Segurança no Trânsito</h2>
+      <ul>
+        <li>Respeite os limites de velocidade.</li>
+        <li>Use sempre o cinto de segurança.</li>
+        <li>Não use o celular enquanto dirige.</li>
+        <li>Respeite a sinalização e as faixas de pedestre.</li>
+        <li>Se beber, não dirija.</li>
+        <li>Dê passagem para ambulâncias e veículos de emergência.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="materiais">
+    <div class="card">
+      <h2><i data-feather="external-link"></i> Materiais de Divulgação</h2>
+      <p>Baixe cartazes, vídeos e artes oficiais da campanha para compartilhar e ajudar a salvar vidas!</p>
+      <a href="https://www.maioamarelo.com/" target="_blank">Acesse os materiais oficiais</a>
+    </div>
+  </section>
+
+  <!-- Nova seção para o vídeo -->
+  <section id="video" class="video-container">
+    <h2><i data-feather="play-circle"></i> Vídeo - Conscientização Maio Amarelo</h2>
+    <iframe src="https://www.youtube.com/embed/iTSLpznwPLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+</main>
+
+<footer>
+  <p>Campanha Maio Amarelo | Projeto Educativo 2025</p>
+</footer>
+
+<!-- Botão de Voltar ao Topo -->
+<button id="btnTopo" onclick="voltarAoTopo()">↑ Topo</button>
+
+<script>
+  // Ativar Feather Icons
+  feather.replace();
+
+  // Mostrar ou ocultar o botão ao rolar
+  window.onscroll = function() {mostrarBotaoTopo()};
+  function mostrarBotaoTopo() {
+    const btn = document.getElementById("btnTopo");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+
+  // Voltar ao topo
+  function voltarAoTopo() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+</body>
+</html>
