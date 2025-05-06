@@ -81,7 +81,7 @@
         <div class="card">
             <h2>O que é o Maio Amarelo?</h2>
             <p>O Maio Amarelo é um movimento internacional de conscientização para a redução de acidentes de trânsito. A campanha busca alertar motoristas, ciclistas e pedestres para o valor da vida e a importância de atitudes responsáveis no trânsito.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Simbolo_Maio_Amarelo.png" alt="Símbolo Maio Amarelo">
+            <img src="https://www.maioamarelo.com/wp-content/uploads/2023/05/maio-amarelo-2023.png" alt="Campanha Maio Amarelo">
         </div>
     </section>
 
@@ -103,7 +103,7 @@
         <div class="card">
             <h2>Materiais de Divulgação</h2>
             <p>Baixe cartazes, vídeos e artes oficiais da campanha para compartilhar e ajudar a salvar vidas!</p>
-           <a href="https://www.maioamarelo.com/" target="_blank">Acesse os materiais oficiais</a>
+            <a href="https://www.maioamarelo.com/" target="_blank">Acesse os materiais oficiais</a>
         </div>
     </section>
 </main>
@@ -114,4 +114,3 @@
 
 </body>
 </html>
-
